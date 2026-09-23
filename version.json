@@ -1,7 +1,7 @@
 {
-  "version": "0.3.16",
-  "url": "https://raw.githubusercontent.com/VolodymyrKopach/chatview-releases/main/payload-0.3.16.zip",
-  "sha256": "8bb439194ad134cabbc84c344c0edcbcc67c94b3db4264223b986c8695794301",
-  "sig": "gdmAFO/+7lS2OjYaDPii/kntifAi0Ha4B18tRPnOywiqSz3ElUxjX+INqOMArgmbHmv4rr0E0I496GWZmi5AAw==",
+  "version": "0.3.17",
+  "url": "https://raw.githubusercontent.com/VolodymyrKopach/chatview-releases/main/payload-0.3.17.zip",
+  "sha256": "2abc6486feda9b6c711b77f47f7a69f0cb9ce0d8649d64671a028e991fbbcb40",
+  "sig": "+5c8r27J9o7tHyhIr8DMrjylJHBrFC0yYZhu4L9QIuUuTrZ+asWiOvSfqudHaAfrPb0jbOguYge1tZtpnC/0BQ==",
   "sig_alg": "ed25519-v1"
 }
