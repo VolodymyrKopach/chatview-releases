@@ -1,0 +1,15 @@
+{
+  "file": "version.json",
+  "version": "0.3.21",
+  "sha256": "cf479e26e1ec12132c772a7a65fd56068b8ff6bf0f79b65bbf5e663555f4a315",
+  "frozen_at": "2026-10-01T10:24:26.474Z",
+  "history": [
+    {
+      "act": "freeze",
+      "version": "0.3.21",
+      "sha256": "cf479e26e1ec12132c772a7a65fd56068b8ff6bf0f79b65bbf5e663555f4a315",
+      "commit": "f0a654f7983ae2c26f7e0f9a83c4f53b2ec585a7",
+      "at": "2026-10-01T10:24:26.474Z"
+    }
+  ]
+}
