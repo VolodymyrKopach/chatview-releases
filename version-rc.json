@@ -1,11 +1,11 @@
 {
-  "version": "0.3.22",
-  "url": "https://github.com/VolodymyrKopach/chatview-releases/releases/download/rc-0.3.22/payload.zip",
-  "sha256": "bebf03d3800375c55c701eb508a3ff82f491fc19677d978119ed0a5cab3ee951",
-  "sig": "CuTlyzf7kJ6skX+HdtwXiyMj3tMUf9Jmq4nCpQ6UYpuAEKyZoC9kbY5f3XBaymqAiV4LCOKlOnXlUUz4ebuNCw==",
+  "version": "0.3.23",
+  "url": "https://github.com/VolodymyrKopach/chatview-releases/releases/download/rc-0.3.23/payload.zip",
+  "sha256": "46a67fda5106d212bd6f9ac3b714eeb6b147227cc13e4253be16052631ceab33",
+  "sig": "pN6gnTwUTachwWOdqp3wr6nLImbcbqaZVxydK2FTFgR71vNEVDn5YO83TfBDR/LjABTS/TZNOip/InXovJZCCA==",
   "sig_alg": "ed25519-v1",
   "critical": false,
-  "installer_url": "https://logopsis.app/download?from=0.3.22",
+  "installer_url": "https://logopsis.app/download?from=0.3.23",
   "needs_installer": false,
   "notes": {},
   "requires": [
@@ -66,5 +66,5 @@
     "zipfile",
     "zlib"
   ],
-  "meta_sig": "nmopcj5D/s48cdKYjlzSwC/WVGp6HkV8ldb6nEQlm9n+CRIHVYoJlho8JDSJzTrB+UetfEVKl+IdnNzafYrKAA=="
+  "meta_sig": "UGO0H9L/Ouo0F0kGOrB2piGranB1NQMHZyJfYN/Y9ph4yVtxa1bd+d/JrmKBaNB/T/R0p1sUKwlZs0CvB1dPCw=="
 }
