@@ -136,6 +136,26 @@
       "zlib"
     ],
     "published_at": "2026-10-05T14:10:40.689Z",
-    "notes_approved": false
+    "notes_approved": true,
+    "notes": {
+      "uk": [
+        "Чат відкривається швидше: спершу видно найновіші повідомлення, а картинки, що довантажуються, більше не зсувають текст.",
+        "На порожньому столі тепер є поле вводу з підказками: напишіть перше повідомлення, і чат створиться сам.",
+        "Поки помічник відповідає, можна додати уточнення в той самий хід або запустити нове повідомлення паралельно.",
+        "Опитування в чаті зручніші: варіанти картками, довгі по одному питанню, а під кожним вибором є місце для свого варіанта.",
+        "Коли помічник питає, чи запамʼятати вашу відповідь, ви самі обираєте: для цього чату, назавжди чи лише цього разу.",
+        "Якщо фонове завдання обірвалось, видно, що воно встигло і що лишилось, і його можна продовжити одним натиском.",
+        "Картинки з повідомлення можна гортати стрілками, клавішами та свайпом на сенсорних екранах."
+      ],
+      "en": [
+        "Chats open faster: the newest messages show first, and images that finish loading no longer push the text around.",
+        "The empty desk now has an input box with suggestions: type your first message and the chat is created for you.",
+        "While a helper is answering, you can add a clarification to the same reply or send a new message in parallel.",
+        "Surveys in chat are easier to fill in: options as cards, long ones one question at a time, and room for your own answer under every choice.",
+        "When a helper asks whether to remember your answer, you choose: for this chat, forever, or just this once.",
+        "If a background task stops halfway, you can see what it already did and what is left, and continue it with one click.",
+        "You can flip through the images in a message with arrows, keys, or a swipe on touch screens."
+      ]
+    }
   }
 ]
