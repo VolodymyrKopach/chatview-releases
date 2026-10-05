@@ -1,16 +1,15 @@
 {
-  "tag": "installer-0.3.20",
-  "version": "0.3.20",
-  "published_at": "2026-09-30T18:59:01Z",
-  "adopted_at": "2026-10-01T10:22:16.484Z",
+  "tag": "installer-0.3.23",
+  "version": "0.3.23",
+  "published_at": "2026-10-05T15:19:19.229Z",
   "assets": {
     "mac": {
       "name": "Logopsis.dmg",
-      "sha256": "13c62416e56e5f6204aca7f42e87d519d321145895b6b3132ce62a84ef8fbc9f"
+      "sha256": "c6451e32da213396d6292e2e378cda6138317a1303b7dba6224624830afd185c"
     },
     "win": {
       "name": "Logopsis-windows.zip",
-      "sha256": "f129489e583df32827f285bf69b105113cdfc92ef2a727509172092775d44f0b"
+      "sha256": "d1a0aa21f702685cb2b0705a423a674798baabe737458a473b20cf12168c7f22"
     }
   },
   "modules": {
@@ -49,6 +48,7 @@
       "_bootsubprocess",
       "_brotli",
       "_bz2",
+      "_cffi",
       "_cffi_backend",
       "_codecs_cn",
       "_codecs_hk",
@@ -196,6 +196,7 @@
       "attrs.setters",
       "attrs.validators",
       "audioop",
+      "backend_c",
       "base64",
       "bdb",
       "binascii",
@@ -1662,7 +1663,9 @@
       "zoneinfo",
       "zoneinfo._common",
       "zoneinfo._tzpath",
-      "zoneinfo._zoneinfo"
+      "zoneinfo._zoneinfo",
+      "zstandard",
+      "zstandard.backend_cffi"
     ],
     "win": [
       "PYZ.pyz",
