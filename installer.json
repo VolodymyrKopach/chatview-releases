@@ -1,15 +1,15 @@
 {
-  "tag": "installer-0.3.23",
-  "version": "0.3.23",
-  "published_at": "2026-10-05T15:19:19.229Z",
+  "tag": "installer-0.3.24",
+  "version": "0.3.24",
+  "published_at": "2026-10-10T15:17:19.424Z",
   "assets": {
     "mac": {
       "name": "Logopsis.dmg",
-      "sha256": "c6451e32da213396d6292e2e378cda6138317a1303b7dba6224624830afd185c"
+      "sha256": "9a878e6426b8cb0bcc2cacbc9f9142e3e6d175fce4436fd7712d5e7052b5204b"
     },
     "win": {
       "name": "Logopsis-windows.zip",
-      "sha256": "d1a0aa21f702685cb2b0705a423a674798baabe737458a473b20cf12168c7f22"
+      "sha256": "6b3488b82854b7028adb930f6253c8e6cdff3050805dc4c2c19976e61ca75710"
     }
   },
   "modules": {
