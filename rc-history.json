@@ -231,6 +231,24 @@
       "zlib"
     ],
     "published_at": "2026-10-10T13:16:47.794Z",
-    "notes_approved": false
+    "notes_approved": true,
+    "notes": {
+      "uk": [
+        "Оптимальний режим тепер увімкнений у кожному чаті одразу: прості кроки виконує легша модель, і ваш ліміт тратиться повільніше.",
+        "Агент показує, на якому він етапі і скільки приблизно лишилось, а коли йому потрібен ваш дозвіл, у чаті зʼявляється кнопка «Дозволити».",
+        "Новий екран «Команда»: групи і набори вашої команди в одному місці, відкривається кнопкою «Відкрити команду».",
+        "У меню «Ще» зʼявилось «Повідомити про помилку чи ідею»: опишіть, додайте файли чи знімок екрана, і звернення дійде, навіть якщо мережа зникла.",
+        "Кілька чатів поруч відкриваються помітно швидше, а коли кілька агентів закінчують роботу одночасно, жодне їхнє повідомлення більше не губиться.",
+        "Нагадування «Від тебе треба» зникає саме, щойно справу зроблено, а сповіщення і повідомлення про помилки приходять мовою вашого інтерфейсу."
+      ],
+      "en": [
+        "Optimal mode is now on in every chat from the start: simple steps go to a lighter model, so your limit lasts longer.",
+        "An agent shows its current stage and roughly how long is left, and when it needs your permission, an \"Allow\" button appears in the chat.",
+        "A new \"Team\" screen keeps your team's groups and sets in one place; open it with the \"Open team\" button.",
+        "The \"More\" menu now has \"Report a problem or share an idea\": describe it, add files or a screenshot, and it gets through even if you were offline.",
+        "Several chats side by side open noticeably faster, and when several agents finish at the same time, none of their messages get lost anymore.",
+        "A \"Needs you\" reminder clears itself as soon as the action is done, and notifications and error messages come in your interface language."
+      ]
+    }
   }
 ]
