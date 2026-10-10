@@ -1,14 +1,15 @@
 {
-  "version": "0.3.23",
-  "url": "https://github.com/VolodymyrKopach/chatview-releases/releases/download/rc-0.3.23/payload.zip",
-  "sha256": "46a67fda5106d212bd6f9ac3b714eeb6b147227cc13e4253be16052631ceab33",
-  "sig": "pN6gnTwUTachwWOdqp3wr6nLImbcbqaZVxydK2FTFgR71vNEVDn5YO83TfBDR/LjABTS/TZNOip/InXovJZCCA==",
+  "version": "0.3.24",
+  "url": "https://github.com/VolodymyrKopach/chatview-releases/releases/download/rc-0.3.24/payload.zip",
+  "sha256": "5aa8df0b3ea146f7f1721b8a70b8c18c991f31305b2e8226b48100d12f3aad87",
+  "sig": "yzr1bXCiwxZ7fmnsrMCiCTkIScqQAH7O8gfzF26kNHbLz/7lcIxiUgH8k3Cd7TBRVZ7FVqtHtw2BqWWS6/ktAw==",
   "sig_alg": "ed25519-v1",
   "critical": false,
-  "installer_url": "https://logopsis.app/download?from=0.3.23",
+  "installer_url": "https://logopsis.app/download?from=0.3.24",
   "needs_installer": false,
   "notes": {},
   "requires": [
+    "__future__",
     "abc",
     "argparse",
     "ast",
@@ -26,6 +27,7 @@
     "getpass",
     "glob",
     "hashlib",
+    "hmac",
     "html",
     "http",
     "imaplib",
@@ -58,6 +60,7 @@
     "tempfile",
     "threading",
     "types",
+    "typing",
     "unicodedata",
     "urllib",
     "uuid",
@@ -66,5 +69,5 @@
     "zipfile",
     "zlib"
   ],
-  "meta_sig": "UGO0H9L/Ouo0F0kGOrB2piGranB1NQMHZyJfYN/Y9ph4yVtxa1bd+d/JrmKBaNB/T/R0p1sUKwlZs0CvB1dPCw=="
+  "meta_sig": "8Bmw7iAVk5OLaryVVlgLRGMFZUC+YW68Luei53l/vq0wDlLZ1/7O5wPzQ6o0ZRMsUGDcoYXuhhNPAnO7UvUeAg=="
 }
