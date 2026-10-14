@@ -323,6 +323,32 @@
       "zlib"
     ],
     "published_at": "2026-10-14T10:46:54.465Z",
-    "notes_approved": false
+    "notes_approved": true,
+    "notes": {
+      "uk": [
+        "Простори: збережіть набір чатів, додатків і канв, що стоять поруч, і відкривайте його окремим вікном одним кліком. Простір сам запамʼятовує, що ви додали чи закрили.",
+        "Форма з питаннями в чаті більше не губить відповіді: оновили сторінку чи перейшли в інший чат, і все заповнене лишається на місці.",
+        "Сповіщення стали спокійнішими: кнопки зʼявляються, коли наводите курсор, а підказка показує повний текст питання і відколи воно чекає. Відповіли, і сповіщення зникає одразу; якщо відповідь не дійшла, воно повертається з проханням надіслати ще раз.",
+        "Коли чат просить змінити умови, за якими задача вважається готовою, зміна відкривається окремим вікном: видно, що було, що стало і навіщо, а підтвердити чи відхилити можна одним кліком.",
+        "Назва агента тепер чиста: лише імʼя і задача, без службових позначок. Наскільки потужна модель працює над задачею, підкаже тихий значок, коли наведете на нього курсор.",
+        "Свій ключ Claude: вставте його в Налаштуваннях поруч з OpenAI і Gemini, а перемикачем вирішуйте, на чому йдуть ходи, на підписці чи на ключі. Logopsis показує, скільки витрачено за місяць, а коли ліміт скінчиться, запропонує кнопкою перейти на інший бік. Сам він нічого не перемикає.",
+        "Чат більше не показує хибну картку «Відповідь не прийшла», коли відповідь насправді ще в дорозі.",
+        "Багато вкладок і вікон більше не гальмують Logopsis: усі вони ділять одне зʼєднання.",
+        "У формах кнопка «Прийняти всі мої поради» тепер унизу, поруч із «Далі», а «Назад» і «Далі» завжди стоять в одному ряду.",
+        "На вузькому екрані телефона шапка чату вміщається повністю: «Простори» і оновлення переїхали в меню «…»."
+      ],
+      "en": [
+        "Spaces: save a set of chats, apps and canvases you keep side by side, and open it in its own window with one click. A space remembers what you add or close.",
+        "A form with questions in a chat no longer loses your answers: reload the page or switch to another chat, and everything you filled in stays in place.",
+        "Notifications are calmer: buttons appear when you hover, and a tooltip shows the full question and how long it has been waiting. Once you answer, the notification disappears right away; if your answer didn't go through, it comes back and asks you to send it again.",
+        "When a chat asks to change the conditions that decide when a task is done, the change opens in its own window: you see what it was, what it becomes and why, and confirm or reject it with one click.",
+        "Agent names are clean now: just the name and the task, no technical tags. A quiet badge tells you how powerful the model on the task is when you hover over it.",
+        "Your own Claude key: paste it in Settings next to OpenAI and Gemini, and use the switch to choose whether turns run on your subscription or on the key. Logopsis shows how much you've spent this month, and when a limit runs out it offers a button to move to the other side. It never switches on its own.",
+        "A chat no longer shows a false \"No reply came back\" card while the reply is still on its way.",
+        "Many tabs and windows no longer slow Logopsis down: they all share one connection.",
+        "In forms, the \"Accept all my picks\" button now sits at the bottom next to \"Next\", and \"Back\" and \"Next\" always stay on one row.",
+        "On a narrow phone screen the chat header fits completely: Spaces and updates moved into the \"…\" menu."
+      ]
+    }
   }
 ]
