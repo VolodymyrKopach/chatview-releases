@@ -1,28 +1,36 @@
 {
-  "version": "0.3.24",
-  "url": "https://github.com/VolodymyrKopach/chatview-releases/releases/download/rc-0.3.24/payload.zip",
-  "sha256": "5aa8df0b3ea146f7f1721b8a70b8c18c991f31305b2e8226b48100d12f3aad87",
-  "sig": "yzr1bXCiwxZ7fmnsrMCiCTkIScqQAH7O8gfzF26kNHbLz/7lcIxiUgH8k3Cd7TBRVZ7FVqtHtw2BqWWS6/ktAw==",
+  "version": "0.3.25",
+  "url": "https://github.com/VolodymyrKopach/chatview-releases/releases/download/rc-0.3.25/payload.zip",
+  "sha256": "719c9a998d999eb72260296825e5df67013884f43073f0a134cddf191628fa2f",
+  "sig": "ymTD9TA0LC942qM8ZQUuPaHYRN4fWCLv7hQ/dOPQXfuGRAqM53iOw5MVTMm2yb4Sino6o8Zz+I+6CdWfGb7lAg==",
   "sig_alg": "ed25519-v1",
   "critical": false,
-  "installer_url": "https://logopsis.app/download?from=0.3.24",
+  "installer_url": "https://logopsis.app/download?from=0.3.25",
   "needs_installer": false,
   "notes": {
     "uk": [
-      "Оптимальний режим тепер увімкнений у кожному чаті одразу: прості кроки виконує легша модель, і ваш ліміт тратиться повільніше.",
-      "Агент показує, на якому він етапі і скільки приблизно лишилось, а коли йому потрібен ваш дозвіл, у чаті зʼявляється кнопка «Дозволити».",
-      "Новий екран «Команда»: групи і набори вашої команди в одному місці, відкривається кнопкою «Відкрити команду».",
-      "У меню «Ще» зʼявилось «Повідомити про помилку чи ідею»: опишіть, додайте файли чи знімок екрана, і звернення дійде, навіть якщо мережа зникла.",
-      "Кілька чатів поруч відкриваються помітно швидше, а коли кілька агентів закінчують роботу одночасно, жодне їхнє повідомлення більше не губиться.",
-      "Нагадування «Від тебе треба» зникає саме, щойно справу зроблено, а сповіщення і повідомлення про помилки приходять мовою вашого інтерфейсу."
+      "Простори: збережіть набір чатів, додатків і канв, що стоять поруч, і відкривайте його окремим вікном одним кліком. Простір сам запамʼятовує, що ви додали чи закрили.",
+      "Форма з питаннями в чаті більше не губить відповіді: оновили сторінку чи перейшли в інший чат, і все заповнене лишається на місці.",
+      "Сповіщення стали спокійнішими: кнопки зʼявляються, коли наводите курсор, а підказка показує повний текст питання і відколи воно чекає. Відповіли, і сповіщення зникає одразу; якщо відповідь не дійшла, воно повертається з проханням надіслати ще раз.",
+      "Коли чат просить змінити умови, за якими задача вважається готовою, зміна відкривається окремим вікном: видно, що було, що стало і навіщо, а підтвердити чи відхилити можна одним кліком.",
+      "Назва агента тепер чиста: лише імʼя і задача, без службових позначок. Наскільки потужна модель працює над задачею, підкаже тихий значок, коли наведете на нього курсор.",
+      "Свій ключ Claude: вставте його в Налаштуваннях поруч з OpenAI і Gemini, а перемикачем вирішуйте, на чому йдуть ходи, на підписці чи на ключі. Logopsis показує, скільки витрачено за місяць, а коли ліміт скінчиться, запропонує кнопкою перейти на інший бік. Сам він нічого не перемикає.",
+      "Чат більше не показує хибну картку «Відповідь не прийшла», коли відповідь насправді ще в дорозі.",
+      "Багато вкладок і вікон більше не гальмують Logopsis: усі вони ділять одне зʼєднання.",
+      "У формах кнопка «Прийняти всі мої поради» тепер унизу, поруч із «Далі», а «Назад» і «Далі» завжди стоять в одному ряду.",
+      "На вузькому екрані телефона шапка чату вміщається повністю: «Простори» і оновлення переїхали в меню «…»."
     ],
     "en": [
-      "Optimal mode is now on in every chat from the start: simple steps go to a lighter model, so your limit lasts longer.",
-      "An agent shows its current stage and roughly how long is left, and when it needs your permission, an \"Allow\" button appears in the chat.",
-      "A new \"Team\" screen keeps your team's groups and sets in one place; open it with the \"Open team\" button.",
-      "The \"More\" menu now has \"Report a problem or share an idea\": describe it, add files or a screenshot, and it gets through even if you were offline.",
-      "Several chats side by side open noticeably faster, and when several agents finish at the same time, none of their messages get lost anymore.",
-      "A \"Needs you\" reminder clears itself as soon as the action is done, and notifications and error messages come in your interface language."
+      "Spaces: save a set of chats, apps and canvases you keep side by side, and open it in its own window with one click. A space remembers what you add or close.",
+      "A form with questions in a chat no longer loses your answers: reload the page or switch to another chat, and everything you filled in stays in place.",
+      "Notifications are calmer: buttons appear when you hover, and a tooltip shows the full question and how long it has been waiting. Once you answer, the notification disappears right away; if your answer didn't go through, it comes back and asks you to send it again.",
+      "When a chat asks to change the conditions that decide when a task is done, the change opens in its own window: you see what it was, what it becomes and why, and confirm or reject it with one click.",
+      "Agent names are clean now: just the name and the task, no technical tags. A quiet badge tells you how powerful the model on the task is when you hover over it.",
+      "Your own Claude key: paste it in Settings next to OpenAI and Gemini, and use the switch to choose whether turns run on your subscription or on the key. Logopsis shows how much you've spent this month, and when a limit runs out it offers a button to move to the other side. It never switches on its own.",
+      "A chat no longer shows a false \"No reply came back\" card while the reply is still on its way.",
+      "Many tabs and windows no longer slow Logopsis down: they all share one connection.",
+      "In forms, the \"Accept all my picks\" button now sits at the bottom next to \"Next\", and \"Back\" and \"Next\" always stay on one row.",
+      "On a narrow phone screen the chat header fits completely: Spaces and updates moved into the \"…\" menu."
     ]
   },
   "requires": [
@@ -86,5 +94,5 @@
     "zipfile",
     "zlib"
   ],
-  "meta_sig": "QCua4HLSOLtvwP8q6vgU37mTS3vuncPH8L9N3vJrD3WpzEncxlvhakX0m120TByDohC0ZFuxBES3KK956sqYCw=="
+  "meta_sig": "q5SdkP6Xea7XoZ4+GDexEGsJZpenRMpaF+zNP7/erEvuFZYOj6sX/4Icx8Ft94DwrTXahXvQZafHOe+gNTNTAw=="
 }
