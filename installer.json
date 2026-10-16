@@ -1,15 +1,15 @@
 {
-  "tag": "installer-0.3.24",
-  "version": "0.3.24",
-  "published_at": "2026-10-10T15:17:19.424Z",
+  "tag": "installer-0.3.26",
+  "version": "0.3.26",
+  "published_at": "2026-10-16T12:23:23.902Z",
   "assets": {
     "mac": {
       "name": "Logopsis.dmg",
-      "sha256": "9a878e6426b8cb0bcc2cacbc9f9142e3e6d175fce4436fd7712d5e7052b5204b"
+      "sha256": "27d28fc93625b9ebb545bbb860d7a74cb8bc4b5da228a59fa3859a0c8ec7d74e"
     },
     "win": {
       "name": "Logopsis-windows.zip",
-      "sha256": "6b3488b82854b7028adb930f6253c8e6cdff3050805dc4c2c19976e61ca75710"
+      "sha256": "c4ea0b95d160596180051182a709683816bdfb3235189abb70b58dee53dae693"
     }
   },
   "modules": {
@@ -71,7 +71,6 @@
       "_json",
       "_lzma",
       "_machsignals",
-      "_markupbase",
       "_md5",
       "_multibytecodec",
       "_multiprocessing",
@@ -407,7 +406,6 @@
       "home_spread",
       "html",
       "html.entities",
-      "html.parser",
       "http",
       "http.client",
       "http.cookiejar",
@@ -1705,7 +1703,6 @@
       "_locale",
       "_lsprof",
       "_lzma",
-      "_markupbase",
       "_md5",
       "_multibytecodec",
       "_multiprocessing",
@@ -2048,7 +2045,6 @@
       "home_spread",
       "html",
       "html.entities",
-      "html.parser",
       "http",
       "http.client",
       "http.cookiejar",
