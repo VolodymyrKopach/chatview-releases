@@ -422,6 +422,28 @@
       "zlib"
     ],
     "published_at": "2026-10-16T08:25:33.879Z",
-    "notes_approved": false
+    "notes_approved": true,
+    "notes": {
+      "uk": [
+        "Якщо відповідь перервав ліміт Claude, Logopsis сам продовжить розмову і запустить відкладені завдання по черзі, щойно обмеження спаде.",
+        "Над полем вводу зʼявилась кнопка «Перемкнути на API», щоб продовжити чат на своєму ключі й мати 5 секунд на скасування.",
+        "Під час ліміту Claude у чаті видно картку ходу й агента, а сповіщення показує, до котрої години чат стоїть і що він продовжить сам.",
+        "Вікно помічників тепер оформлене плитками з пошуком, групами за типом і бічною панеллю з описом та кнопкою «Почати чат».",
+        "З чату прибрали панель «Аркуш» разом із самарі-документом.",
+        "Підказка «Claude Code не встановлено» більше не ховається за вікнами, а кнопку «Перевірити оновлення» в налаштуваннях знову можна натиснути.",
+        "Неактивні вкладки більше не перевіряють нові повідомлення у фоні кожні 25 секунд, тому компʼютер працює легше.",
+        "Голос за самим текстом відрізняє українську від російської та англійську від іспанської."
+      ],
+      "en": [
+        "If a Claude rate limit interrupts a response, Logopsis automatically resumes the conversation and runs queued tasks in order as soon as the limit resets.",
+        "A \"Switch to API\" button now appears above the input field so you can continue the chat using your own key, with a 5-second window to cancel.",
+        "During a Claude rate limit, the chat keeps the turn card and agent visible, while a notice shows when the pause ends and confirms the chat will resume on its own.",
+        "The helpers window now uses a tile layout with search, grouping by type, and a side panel featuring a description and a \"Start chat\" button.",
+        "The \"Sheet\" panel and its summary document have been removed from the chat.",
+        "The \"Claude Code is not installed\" prompt no longer hides behind other windows, and the \"Check for updates\" button in settings is clickable again.",
+        "Inactive tabs no longer check for new messages in the background every 25 seconds, reducing load on your computer.",
+        "Voice input automatically distinguishes Ukrainian from Russian and English from Spanish based on the dictated text alone."
+      ]
+    }
   }
 ]
