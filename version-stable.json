@@ -1,36 +1,32 @@
 {
-  "version": "0.3.25",
-  "url": "https://github.com/VolodymyrKopach/chatview-releases/releases/download/rc-0.3.25/payload.zip",
-  "sha256": "719c9a998d999eb72260296825e5df67013884f43073f0a134cddf191628fa2f",
-  "sig": "ymTD9TA0LC942qM8ZQUuPaHYRN4fWCLv7hQ/dOPQXfuGRAqM53iOw5MVTMm2yb4Sino6o8Zz+I+6CdWfGb7lAg==",
+  "version": "0.3.26",
+  "url": "https://github.com/VolodymyrKopach/chatview-releases/releases/download/rc-0.3.26/payload.zip",
+  "sha256": "a0e82f794b2d7a4492df8a9a2e907de38cebf417d5b8176afa72ce1ae58e01c2",
+  "sig": "4fVhWm2DqunGEzh0/3Xbth3O33tgrh5eFcrO1DP8DsAr1dtjdWGy1qvkd4MdSvyyBRMKYVFJglyneVST7Ja2DA==",
   "sig_alg": "ed25519-v1",
   "critical": false,
-  "installer_url": "https://logopsis.app/download?from=0.3.25",
+  "installer_url": "https://logopsis.app/download?from=0.3.26",
   "needs_installer": false,
   "notes": {
     "uk": [
-      "Простори: збережіть набір чатів, додатків і канв, що стоять поруч, і відкривайте його окремим вікном одним кліком. Простір сам запамʼятовує, що ви додали чи закрили.",
-      "Форма з питаннями в чаті більше не губить відповіді: оновили сторінку чи перейшли в інший чат, і все заповнене лишається на місці.",
-      "Сповіщення стали спокійнішими: кнопки зʼявляються, коли наводите курсор, а підказка показує повний текст питання і відколи воно чекає. Відповіли, і сповіщення зникає одразу; якщо відповідь не дійшла, воно повертається з проханням надіслати ще раз.",
-      "Коли чат просить змінити умови, за якими задача вважається готовою, зміна відкривається окремим вікном: видно, що було, що стало і навіщо, а підтвердити чи відхилити можна одним кліком.",
-      "Назва агента тепер чиста: лише імʼя і задача, без службових позначок. Наскільки потужна модель працює над задачею, підкаже тихий значок, коли наведете на нього курсор.",
-      "Свій ключ Claude: вставте його в Налаштуваннях поруч з OpenAI і Gemini, а перемикачем вирішуйте, на чому йдуть ходи, на підписці чи на ключі. Logopsis показує, скільки витрачено за місяць, а коли ліміт скінчиться, запропонує кнопкою перейти на інший бік. Сам він нічого не перемикає.",
-      "Чат більше не показує хибну картку «Відповідь не прийшла», коли відповідь насправді ще в дорозі.",
-      "Багато вкладок і вікон більше не гальмують Logopsis: усі вони ділять одне зʼєднання.",
-      "У формах кнопка «Прийняти всі мої поради» тепер унизу, поруч із «Далі», а «Назад» і «Далі» завжди стоять в одному ряду.",
-      "На вузькому екрані телефона шапка чату вміщається повністю: «Простори» і оновлення переїхали в меню «…»."
+      "Якщо відповідь перервав ліміт Claude, Logopsis сам продовжить розмову і запустить відкладені завдання по черзі, щойно обмеження спаде.",
+      "Над полем вводу зʼявилась кнопка «Перемкнути на API», щоб продовжити чат на своєму ключі й мати 5 секунд на скасування.",
+      "Під час ліміту Claude у чаті видно картку ходу й агента, а сповіщення показує, до котрої години чат стоїть і що він продовжить сам.",
+      "Вікно помічників тепер оформлене плитками з пошуком, групами за типом і бічною панеллю з описом та кнопкою «Почати чат».",
+      "З чату прибрали панель «Аркуш» разом із самарі-документом.",
+      "Підказка «Claude Code не встановлено» більше не ховається за вікнами, а кнопку «Перевірити оновлення» в налаштуваннях знову можна натиснути.",
+      "Неактивні вкладки більше не перевіряють нові повідомлення у фоні кожні 25 секунд, тому компʼютер працює легше.",
+      "Голос за самим текстом відрізняє українську від російської та англійську від іспанської."
     ],
     "en": [
-      "Spaces: save a set of chats, apps and canvases you keep side by side, and open it in its own window with one click. A space remembers what you add or close.",
-      "A form with questions in a chat no longer loses your answers: reload the page or switch to another chat, and everything you filled in stays in place.",
-      "Notifications are calmer: buttons appear when you hover, and a tooltip shows the full question and how long it has been waiting. Once you answer, the notification disappears right away; if your answer didn't go through, it comes back and asks you to send it again.",
-      "When a chat asks to change the conditions that decide when a task is done, the change opens in its own window: you see what it was, what it becomes and why, and confirm or reject it with one click.",
-      "Agent names are clean now: just the name and the task, no technical tags. A quiet badge tells you how powerful the model on the task is when you hover over it.",
-      "Your own Claude key: paste it in Settings next to OpenAI and Gemini, and use the switch to choose whether turns run on your subscription or on the key. Logopsis shows how much you've spent this month, and when a limit runs out it offers a button to move to the other side. It never switches on its own.",
-      "A chat no longer shows a false \"No reply came back\" card while the reply is still on its way.",
-      "Many tabs and windows no longer slow Logopsis down: they all share one connection.",
-      "In forms, the \"Accept all my picks\" button now sits at the bottom next to \"Next\", and \"Back\" and \"Next\" always stay on one row.",
-      "On a narrow phone screen the chat header fits completely: Spaces and updates moved into the \"…\" menu."
+      "If a Claude rate limit interrupts a response, Logopsis automatically resumes the conversation and runs queued tasks in order as soon as the limit resets.",
+      "A \"Switch to API\" button now appears above the input field so you can continue the chat using your own key, with a 5-second window to cancel.",
+      "During a Claude rate limit, the chat keeps the turn card and agent visible, while a notice shows when the pause ends and confirms the chat will resume on its own.",
+      "The helpers window now uses a tile layout with search, grouping by type, and a side panel featuring a description and a \"Start chat\" button.",
+      "The \"Sheet\" panel and its summary document have been removed from the chat.",
+      "The \"Claude Code is not installed\" prompt no longer hides behind other windows, and the \"Check for updates\" button in settings is clickable again.",
+      "Inactive tabs no longer check for new messages in the background every 25 seconds, reducing load on your computer.",
+      "Voice input automatically distinguishes Ukrainian from Russian and English from Spanish based on the dictated text alone."
     ]
   },
   "requires": [
@@ -94,5 +90,5 @@
     "zipfile",
     "zlib"
   ],
-  "meta_sig": "q5SdkP6Xea7XoZ4+GDexEGsJZpenRMpaF+zNP7/erEvuFZYOj6sX/4Icx8Ft94DwrTXahXvQZafHOe+gNTNTAw=="
+  "meta_sig": "LxqwbiDz/EwcUfbPvOZl4v8zGhNB52KS2lUF4OAvPcnh7ig6QJW7SWGnFQxpj+18ZFp2rhDAo+lzTStMvDGoAg=="
 }

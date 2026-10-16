@@ -444,6 +444,7 @@
         "Inactive tabs no longer check for new messages in the background every 25 seconds, reducing load on your computer.",
         "Voice input automatically distinguishes Ukrainian from Russian and English from Spanish based on the dictated text alone."
       ]
-    }
+    },
+    "promoted_at": "2026-10-16T12:23:13.767Z"
   }
 ]
